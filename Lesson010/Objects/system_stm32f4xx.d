@@ -1,4 +1,4 @@
-./objects/main.o: main.c \
+./objects/system_stm32f4xx.o: RTE\Device\STM32F446RETx\system_stm32f4xx.c \
   C:\Users\Alex_Ch\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
   C:\Users\Alex_Ch\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f446xx.h \
   C:\Users\Alex_Ch\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h \

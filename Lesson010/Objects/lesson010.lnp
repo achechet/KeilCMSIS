@@ -1,9 +1,7 @@
---cpu Cortex-M3
+--cpu=Cortex-M4.fp.sp
 ".\objects\main.o"
-".\objects\ds18b20.o"
-".\objects\tim6.o"
-".\objects\startup_stm32f10x_md_vl.o"
-".\objects\system_stm32f10x.o"
+".\objects\startup_stm32f446xx.o"
+".\objects\system_stm32f4xx.o"
 --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\Listings\lesson010.map" -o .\Objects\lesson010.axf
